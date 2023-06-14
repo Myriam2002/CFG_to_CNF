@@ -13,8 +13,8 @@ The implementation consists of a Python script that takes a CFG as input and per
 1. **Add new start** 
 2. **Elimination of ε-productions** (productions that generate the empty string).
 3. **Removal of unit productions** (productions with a single non-terminal on the right-hand side).
-4. **Remove useless productions ** (Non-reachable and non-generating)
+4. **Remove useless productions** (Non-reachable and non-generating)
 5. **Convert to Chomsky form**
--   Conversion of long productions (productions with more than two non-terminals on the right-hand side) into shorter productions.
--   Introduction of new non-terminals to replace terminals in productions.
+  -   Conversion of long productions (productions with more than two non-terminals on the right-hand side) into shorter productions.
+  -   Introduction of new non-terminals to replace terminals in productions.
 
